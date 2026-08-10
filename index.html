@@ -1,286 +1,997 @@
+
 <!DOCTYPE html>
-<html lang="pt-br">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css" />
-    <title>Projeto Stranger Things - Serie e elenco</title>
-  </head>
-  <body>
-    <header>
-      <img id="logo" src="./assets/logo.png" alt="Logo de stranger things" loading="lazy" />
-      <nav id="linksLogo">
-        <ul>
-          <li><a href="#history">História</a></li>
-          <li><a href="#persons">Elenco</a></li>
-          <li><a href="#gallery">Imagens</a></li>
-        </ul>
-      </nav>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta
+        name="description"
+        content="Projeto informativo sobre Stranger Things, suas temporadas, história e elenco."
+    >
+
+    <title>Stranger Things | Fan Page</title>
+
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+
+    <!-- =====================================================
+         HEADER
+         ===================================================== -->
+
+    <header class="header">
+
+        <div class="container header-container">
+
+            <a href="#hero" class="logo" aria-label="Página inicial">
+                <span>STRANGER</span>
+                <strong>THINGS</strong>
+            </a>
+
+            <nav class="navigation" aria-label="Navegação principal">
+
+                <a href="#history">História</a>
+
+                <a href="#persons">Elenco</a>
+
+                <a href="#gallery">Galeria</a>
+
+            </nav>
+
+        </div>
+
     </header>
 
+
     <main>
-      <section id="hero">
-        <h1>Stranger Things</h1>
-        <div class="dots">
-          <button></button>
-          <button></button>
-          <button></button>
-        </div>
-      </section>
-      <section id="gallery">
-        <div class="container">
-          <h2>Galeria de imagens</h2>
 
-        <div class="galleryRow">
-          <div>
-            <img src="./assets/galleryrow/st1.jpg" alt="Stranger Things" loading="lazy"/>
-          </div>
-          <div>
-            <img src="./assets/galleryrow/st2.png" alt="Stranger Things" loading="lazy"/>
-          </div>
-          <div>
-            <img src="./assets/galleryrow/st3.jpg" alt="Stranger Things" loading="lazy"/>
-          </div>
-          <div>
-            <img src="./assets/galleryrow/st5.webp" alt="Stranger Things" loading="lazy"/>
-          </div>
-          <div>
-            <img src="./assets/galleryrow/st6.webp" alt="Stranger Things" loading="lazy"/>
-          </div>
-          <div>
-            <img src="./assets/galleryrow/st7.avif" alt="Stranger Things" loading="lazy"/>
-          </div>
-          <div>
-            <img src="./assets/galleryrow/st4.jpg" alt="Stranger Things" loading="lazy"/>
-          </div>
-        </div>
-        </div>
-        
-      </section>
+        <!-- =====================================================
+             HERO
+             ===================================================== -->
 
-      <section id="history">
-        <div class="container">
-        <h2>História</h2>
-        <div class="historybox">
-          <div>
-            <p>
-              1ª temporada (2016) <br /><br />
+        <section id="hero" class="hero">
 
-              Em novembro de 1983, o estudante Will Byers é abduzido por uma
-              criatura de uma realidade alternativa chamada "Mundo Invertido",
-              causando mistério e pavor aos habitantes de Hawkins, Indiana. Sua
-              mãe, Joyce Byers, tenta encontrar seu paradeiro com a ajuda do
-              xerife Jim Hopper, enquanto Mike Wheeler, Dustin Henderson e Lucas
-              Sinclair fazem outra investigação para encontrá-lo, porém são
-              surpreendidos quando uma estranha garota com poderes telecinéticos
-              chamada Onze aparece na cidade. Onze é uma fugitiva do Laboratório
-              Nacional de Hawkins, localizado nas proximidades, que faz
-              ostensivamente pesquisas científicas para o Departamento de
-              Energia dos Estados Unidos e realiza secretamente experimentos
-              paranormais e sobrenaturais em humanos.
+            <div class="hero-overlay"></div>
 
-              <br /><br />
-              2ª temporada (2017) <br /><br />
+            <div class="container hero-content">
 
-              Em outubro de 1984, Will foi resgatado, mas poucos sabem dos
-              detalhes dos acontecimentos. Quando é descoberto que Will ainda
-              está sendo influenciado por entidades do Mundo Invertido,
-              principalmente pela figura de uma criatura chamada Devorador de
-              Mentes, seus amigos e familiares se juntam para salvá-lo da
-              criatura e fechar o portal do mundo invertido.
+                <span class="hero-eyebrow">
+                    THE UPSIDE DOWN
+                </span>
 
-              <br /><br />
-              3ª temporada (2019) <br /><br />
+                <h1>
+                    Stranger<br>
+                    <span>Things</span>
+                </h1>
 
-              Em julho de 1985, as crianças precisam lidar com os dilemas da
-              adolescência, como romances e amizades. Um dos novos pontos da
-              cidade é o shopping Starcourt Mall, que começa a atrair atenção
-              dos moradores de Hawkins, colocando a maioria das outras lojas
-              fora do mercado. Hopper fica cada vez mais preocupado com o
-              relacionamento de Onze e Mike enquanto ainda tenta cuidar de
-              Joyce. Sem o conhecimento da cidade, um laboratório secreto
-              soviético está escondido nas profundezas do shopping, procurando
-              abrir a porta de entrada para o Mundo Invertido, permitindo que as
-              entidades de lá possuam pessoas em Hawkins e criando um novo
-              horror para lidar.
+                <p>
+                    Amigos. Mistérios. Monstros.
+                    Uma cidade escondendo segredos.
+                </p>
 
-              <br /><br />
-              4ª temporada (2022) <br /><br />
-              Em março de 1986, oito meses depois do conflito de Starcourt, a
-              cidade foi tomada por um rastro de terror e destruição. Os efeitos
-              da batalha são sentidos pelo grupo de amigos, que se separam pela
-              primeira vez, enquanto passam por um período turbulento típico da
-              adolescência na escola. Em um momento em que todos estão mais
-              vulneráveis, uma nova ameaça sobrenatural surge. No entanto, o
-              novo mistério pode conter a resposta para acabar com os horrores
-              do Mundo Invertido.
-              <br /><br />
-              Fonte:
-              <a
-                href="https://pt.wikipedia.org/wiki/Stranger_Things"
-                target="_blank"
-                >Wikipedia</a
-              >
-            </p>
-          </div>
+                <a href="#history" class="hero-button">
+                    Explorar história
+                </a>
 
-          <img
-            src="./assets/pngegg.png"
-            alt="Imagem ilustrativa de Stranger Things" loading="lazy"
-          />
-        </div>
-      </div>
-      </section>
+            </div>
 
-      <section id="persons">
-      <div class="container">
-        <h2>Elenco</h2>
-        <div class="elenco">
-          <div>
-            <img
-              src="assets/persons/millie-bobby.jpg"
-              alt="Atriz Millie Bobby" loading="lazy"
-            />
-            <h3>Millie Bobby</h3>
+            <div class="hero-scroll" aria-hidden="true">
+                <span></span>
+                <small>Role para explorar</small>
+            </div>
 
-            <h4>Eleven</h4>
-          </div>
-          <div>
-            <img src="./assets/persons/sadie-sink.jpg" alt="Atriz Sadie Sink" loading="lazy"/>
-            <h3>Sadie Sink</h3>
-            <h4>Max</h4>
-          </div>
-          <div>
-            <img
-              src="./assets/persons/gaten-matarazzo.jpg"
-              alt="Ator Gaten Matarazzo"
-            loading="lazy"/>
-            <h3>Gaten Matarazzo</h3>
-            <h4>Dustin Henderson</h4>
-          </div>
-          <div>
-            <img
-              src="./assets/persons/noah-schnapp.jpg"
-              alt="Ator Noah Schnapp"
-            loading="lazy"/>
-            <h3>Noah Schnapp</h3>
-            <h4>Will Byers</h4>
-          </div>
-          <div>
-            <img
-              src="./assets/persons/finn-wolfhard.jpg"
-              alt="Ator Finn Wolfhard"
-            loading="lazy"/>
-            <h3>Finn Wolfhard</h3>
-            <h4>Mike</h4>
-          </div>
-          <div>
-            <img
-              src="./assets/persons/caleb-mclaughlin.jpg"
-              alt="Ator Caleb McLaughlin"
-            loading="lazy"/>
-            <h3>Caleb McLaughlin</h3>
-            <h4>Lucas Sinclair</h4>
-          </div>
-          <div>
-            <img src="./assets/persons/joe-keery.jpg" alt="Ator Joe Keery" loading="lazy"/>
-            <h3>Joe Keery</h3>
-            <h4>Steve Harrington</h4>
-          </div>
-          <div>
-            <img src="./assets/persons/maya-hawke.jpg" alt="Atriz Maya Hawke" loading="lazy"/>
-            <h3>Maya Hawke</h3>
-            <h4>Robin</h4>
-          </div>
-          <div>
-            <img
-              src="./assets/persons/david-harbour.jpg"
-              alt="Ator David Harbour"
-            loading="lazy"/>
-            <h3>David Harbour</h3>
-            <h4>Jim Hopper</h4>
-          </div>
-          <div>
-            <img
-              src="./assets/persons/winona-ryder.jpg"
-              alt="Atriz Winona Ryder"
-            loading="lazy"/>
-            <h3>Winona Ryder</h3>
-            <h4>Joyce Byers</h4>
-          </div>
-          <div>
-            <img
-              src="./assets/persons/priah-ferguston.jpg"
-              alt="Atriz Priah Ferguson"
-            loading="lazy"/>
-            <h3>Priah Ferguson</h3>
-            <h4>Erica Sinclair</h4>
-          </div>
-          <div>
-            <img
-              src="./assets/persons/matthew-modine.jpg"
-              alt="Ator Matthew Modine"
-            loading="lazy"/>
-            <h3>Matthew Modine</h3>
-            <h4>Martin Brenner</h4>
-          </div>
-          <div>
-            <img
-              src="./assets/persons/dacre-montgomery.jpg"
-              alt="Ator Dacre Montgomery"
-            loading="lazy"/>
-            <h3>Dacre Montgomery</h3>
-            <h4>Billy Hargrove</h4>
-          </div>
-          <div>
-            <img
-              src="./assets/persons/joseph-quinn.jpg"
-              alt="Ator Joseph Quinn"
-            loading="lazy"/>
-            <h3>Joseph Quinn</h3>
-            <h4>Eddie Munson</h4>
-          </div>
-          <div>
-            <img
-              src="./assets/persons/jamie-campbell.jpg"
-              alt="Ator Jamie Campbell Bower"
-            loading="lazy"/>
-            <h3>Jamie Campbell Bower</h3>
-            <h4>Vecna</h4>
-          </div>
-          <div>
-            <img
-              src="./assets/persons/natalia-dyer.jpg"
-              alt="Atriz Natalia Dyer"
-            loading="lazy"/>
-            <h3>Natalia Dyer</h3>
-            <h4>Nancy Wheeler</h4>
-          </div>
-          <div>
-            <img
-              src="./assets/persons/charlie-heaton.jpg"
-              alt="Ator Charlie Heaton"
-            loading="lazy"/>
-            <h3>Charlie Heaton</h3>
-            <h4>Jonathan Byers</h4>
-          </div>
-        </div>
-      </section>
+        </section>
+
+
+        <!-- =====================================================
+             GALERIA
+             ===================================================== -->
+
+        <section id="gallery" class="gallery section">
+
+            <div class="container">
+
+                <div class="section-heading">
+
+                    <span class="section-label">
+                        HAWKINS
+                    </span>
+
+                    <h2>
+                        Galeria
+                    </h2>
+
+                    <p>
+                        Alguns momentos do universo de Stranger Things.
+                    </p>
+
+                </div>
+
+
+                <div class="gallery-grid">
+
+                    <figure class="gallery-item gallery-large">
+
+                        <img
+                            src="./assets/galleryrow/st1.jpg"
+                            alt="Cena de Stranger Things"
+                            loading="lazy"
+                        >
+
+                        <figcaption>
+                            <span>01</span>
+                            Hawkins
+                        </figcaption>
+
+                    </figure>
+
+
+                    <figure class="gallery-item">
+
+                        <img
+                            src="./assets/galleryrow/st2.png"
+                            alt="Personagens de Stranger Things"
+                            loading="lazy"
+                        >
+
+                        <figcaption>
+                            <span>02</span>
+                            The Party
+                        </figcaption>
+
+                    </figure>
+
+
+                    <figure class="gallery-item">
+
+                        <img
+                            src="./assets/galleryrow/st3.jpg"
+                            alt="Cena de Stranger Things"
+                            loading="lazy"
+                        >
+
+                        <figcaption>
+                            <span>03</span>
+                            Hawkins Lab
+                        </figcaption>
+
+                    </figure>
+
+
+                    <figure class="gallery-item">
+
+                        <img
+                            src="./assets/galleryrow/st5.webp"
+                            alt="Cena do Mundo Invertido"
+                            loading="lazy"
+                        >
+
+                        <figcaption>
+                            <span>04</span>
+                            Upside Down
+                        </figcaption>
+
+                    </figure>
+
+
+                    <figure class="gallery-item gallery-large">
+
+                        <img
+                            src="./assets/galleryrow/st6.webp"
+                            alt="Personagens de Stranger Things"
+                            loading="lazy"
+                        >
+
+                        <figcaption>
+                            <span>05</span>
+                            The Party
+                        </figcaption>
+
+                    </figure>
+
+
+                    <figure class="gallery-item">
+
+                        <img
+                            src="./assets/galleryrow/st7.avif"
+                            alt="Cena de Stranger Things"
+                            loading="lazy"
+                        >
+
+                        <figcaption>
+                            <span>06</span>
+                            Hawkins
+                        </figcaption>
+
+                    </figure>
+
+
+                    <figure class="gallery-item">
+
+                        <img
+                            src="./assets/galleryrow/st4.jpg"
+                            alt="Cena de Stranger Things"
+                            loading="lazy"
+                        >
+
+                        <figcaption>
+                            <span>07</span>
+                            Stranger Things
+                        </figcaption>
+
+                    </figure>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- =====================================================
+             HISTÓRIA
+             ===================================================== -->
+
+        <section id="history" class="history section">
+
+            <div class="container">
+
+                <div class="section-heading section-heading-light">
+
+                    <span class="section-label">
+                        1983 — 1986
+                    </span>
+
+                    <h2>
+                        A história
+                    </h2>
+
+                    <p>
+                        Cinco temporadas. Uma cidade.
+                        Um mundo escondido.
+                    </p>
+
+                </div>
+
+
+                <div class="history-layout">
+
+                    <div class="history-timeline">
+
+                        <!-- TEMPORADA 01 -->
+
+                        <article class="season">
+
+                            <div class="season-marker">
+                                <span>01</span>
+                            </div>
+
+                            <div class="season-content">
+
+                                <span class="season-year">
+                                    2016 · 1983
+                                </span>
+
+                                <h3>
+                                    1ª Temporada
+                                </h3>
+
+                                <p>
+                                    Em novembro de 1983, o estudante Will
+                                    Byers desaparece misteriosamente após
+                                    encontrar uma criatura de uma realidade
+                                    alternativa conhecida como Mundo Invertido.
+                                </p>
+
+                                <p>
+                                    Enquanto Joyce Byers e o xerife Jim Hopper
+                                    procuram por Will, Mike, Dustin e Lucas
+                                    encontram Onze, uma garota com poderes
+                                    telecinéticos que fugiu do Laboratório
+                                    Nacional de Hawkins.
+                                </p>
+
+                            </div>
+
+                        </article>
+
+
+                        <!-- TEMPORADA 02 -->
+
+                        <article class="season">
+
+                            <div class="season-marker">
+                                <span>02</span>
+                            </div>
+
+                            <div class="season-content">
+
+                                <span class="season-year">
+                                    2017 · 1984
+                                </span>
+
+                                <h3>
+                                    2ª Temporada
+                                </h3>
+
+                                <p>
+                                    Após ser resgatado, Will continua
+                                    conectado ao Mundo Invertido e passa
+                                    a sofrer influência do Devorador de
+                                    Mentes.
+                                </p>
+
+                                <p>
+                                    Seus amigos e familiares se unem para
+                                    tentar salvá-lo enquanto Onze começa
+                                    a descobrir mais sobre seu passado e
+                                    sobre os experimentos realizados
+                                    em Hawkins.
+                                </p>
+
+                            </div>
+
+                        </article>
+
+
+                        <!-- TEMPORADA 03 -->
+
+                        <article class="season">
+
+                            <div class="season-marker">
+                                <span>03</span>
+                            </div>
+
+                            <div class="season-content">
+
+                                <span class="season-year">
+                                    2019 · 1985
+                                </span>
+
+                                <h3>
+                                    3ª Temporada
+                                </h3>
+
+                                <p>
+                                    O verão de 1985 traz o novo Starcourt
+                                    Mall para Hawkins, enquanto o grupo
+                                    enfrenta mudanças típicas da
+                                    adolescência.
+                                </p>
+
+                                <p>
+                                    Sem que os moradores saibam, uma
+                                    instalação soviética está escondida
+                                    sob o shopping e tenta abrir novamente
+                                    o portal para o Mundo Invertido.
+                                </p>
+
+                            </div>
+
+                        </article>
+
+
+                        <!-- TEMPORADA 04 -->
+
+                        <article class="season">
+
+                            <div class="season-marker">
+                                <span>04</span>
+                            </div>
+
+                            <div class="season-content">
+
+                                <span class="season-year">
+                                    2022 · 1986
+                                </span>
+
+                                <h3>
+                                    4ª Temporada
+                                </h3>
+
+                                <p>
+                                    Oito meses após os acontecimentos de
+                                    Starcourt, Hawkins é marcada por um
+                                    novo rastro de terror e destruição.
+                                </p>
+
+                                <p>
+                                    Uma nova ameaça sobrenatural surge,
+                                    enquanto os personagens precisam lidar
+                                    com seus próprios traumas e com os
+                                    mistérios que cercam o Mundo Invertido.
+                                </p>
+
+                            </div>
+
+                        </article>
+
+
+                        <!-- TEMPORADA 05 -->
+
+                        <article class="season season-final">
+
+                            <div class="season-marker">
+                                <span>05</span>
+                            </div>
+
+                            <div class="season-content">
+
+                                <span class="season-year">
+                                    Temporada final
+                                </span>
+
+                                <h3>
+                                    5ª Temporada
+                                </h3>
+
+                                <p>
+                                    A história de Hawkins chega ao seu
+                                    capítulo final. O grupo precisa se
+                                    reunir novamente para enfrentar as
+                                    consequências de tudo o que aconteceu
+                                    desde o desaparecimento de Will.
+                                </p>
+
+                            </div>
+
+                        </article>
+
+                    </div>
+
+
+                    <aside class="history-image">
+
+                        <div class="image-frame">
+
+                            <img
+                                src="./assets/pngegg.png"
+                                alt="Ilustração relacionada a Stranger Things"
+                                loading="lazy"
+                            >
+
+                        </div>
+
+                        <div class="history-quote">
+                            <span>“</span>
+
+                            <p>
+                                Friends don't lie.
+                            </p>
+
+                        </div>
+
+                    </aside>
+
+                </div>
+
+
+                <div class="source">
+
+                    <span>Fonte:</span>
+
+                    <a
+                        href="https://pt.wikipedia.org/wiki/Stranger_Things"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                    >
+                        Wikipedia
+                    </a>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- =====================================================
+             ELENCO
+             ===================================================== -->
+
+        <section id="persons" class="cast section">
+
+            <div class="container">
+
+                <div class="section-heading section-heading-light">
+
+                    <span class="section-label">
+                        THE PARTY
+                    </span>
+
+                    <h2>
+                        Elenco
+                    </h2>
+
+                    <p>
+                        Os personagens que fazem parte dessa história.
+                    </p>
+
+                </div>
+
+
+                <div class="cast-grid">
+
+
+                    <article class="cast-card">
+
+                        <div class="cast-image">
+
+                            <img
+                                src="./assets/persons/millie-bobby.jpg"
+                                alt="Millie Bobby Brown"
+                                loading="lazy"
+                            >
+
+                        </div>
+
+                        <div class="cast-info">
+
+                            <span>Eleven</span>
+
+                            <h3>
+                                Millie Bobby Brown
+                            </h3>
+
+                        </div>
+
+                    </article>
+
+
+                    <article class="cast-card">
+
+                        <div class="cast-image">
+
+                            <img
+                                src="./assets/persons/sadie-sink.jpg"
+                                alt="Sadie Sink"
+                                loading="lazy"
+                            >
+
+                        </div>
+
+                        <div class="cast-info">
+
+                            <span>Max Mayfield</span>
+
+                            <h3>
+                                Sadie Sink
+                            </h3>
+
+                        </div>
+
+                    </article>
+
+
+                    <article class="cast-card">
+
+                        <div class="cast-image">
+
+                            <img
+                                src="./assets/persons/gaten-matarazzo.jpg"
+                                alt="Gaten Matarazzo"
+                                loading="lazy"
+                            >
+
+                        </div>
+
+                        <div class="cast-info">
+
+                            <span>Dustin Henderson</span>
+
+                            <h3>
+                                Gaten Matarazzo
+                            </h3>
+
+                        </div>
+
+                    </article>
+
+
+                    <article class="cast-card">
+
+                        <div class="cast-image">
+
+                            <img
+                                src="./assets/persons/noah-schnapp.jpg"
+                                alt="Noah Schnapp"
+                                loading="lazy"
+                            >
+
+                        </div>
+
+                        <div class="cast-info">
+
+                            <span>Will Byers</span>
+
+                            <h3>
+                                Noah Schnapp
+                            </h3>
+
+                        </div>
+
+                    </article>
+
+
+                    <article class="cast-card">
+
+                        <div class="cast-image">
+
+                            <img
+                                src="./assets/persons/finn-wolfhard.jpg"
+                                alt="Finn Wolfhard"
+                                loading="lazy"
+                            >
+
+                        </div>
+
+                        <div class="cast-info">
+
+                            <span>Mike Wheeler</span>
+
+                            <h3>
+                                Finn Wolfhard
+                            </h3>
+
+                        </div>
+
+                    </article>
+
+
+                    <article class="cast-card">
+
+                        <div class="cast-image">
+
+                            <img
+                                src="./assets/persons/caleb-mclaughlin.jpg"
+                                alt="Caleb McLaughlin"
+                                loading="lazy"
+                            >
+
+                        </div>
+
+                        <div class="cast-info">
+
+                            <span>Lucas Sinclair</span>
+
+                            <h3>
+                                Caleb McLaughlin
+                            </h3>
+
+                        </div>
+
+                    </article>
+
+
+                    <article class="cast-card">
+
+                        <div class="cast-image">
+
+                            <img
+                                src="./assets/persons/joe-keery.jpg"
+                                alt="Joe Keery"
+                                loading="lazy"
+                            >
+
+                        </div>
+
+                        <div class="cast-info">
+
+                            <span>Steve Harrington</span>
+
+                            <h3>
+                                Joe Keery
+                            </h3>
+
+                        </div>
+
+                    </article>
+
+
+                    <article class="cast-card">
+
+                        <div class="cast-image">
+
+                            <img
+                                src="./assets/persons/maya-hawke.jpg"
+                                alt="Maya Hawke"
+                                loading="lazy"
+                            >
+
+                        </div>
+
+                        <div class="cast-info">
+
+                            <span>Robin Buckley</span>
+
+                            <h3>
+                                Maya Hawke
+                            </h3>
+
+                        </div>
+
+                    </article>
+
+
+                    <article class="cast-card">
+
+                        <div class="cast-image">
+
+                            <img
+                                src="./assets/persons/david-harbour.jpg"
+                                alt="David Harbour"
+                                loading="lazy"
+                            >
+
+                        </div>
+
+                        <div class="cast-info">
+
+                            <span>Jim Hopper</span>
+
+                            <h3>
+                                David Harbour
+                            </h3>
+
+                        </div>
+
+                    </article>
+
+
+                    <article class="cast-card">
+
+                        <div class="cast-image">
+
+                            <img
+                                src="./assets/persons/winona-ryder.jpg"
+                                alt="Winona Ryder"
+                                loading="lazy"
+                            >
+
+                        </div>
+
+                        <div class="cast-info">
+
+                            <span>Joyce Byers</span>
+
+                            <h3>
+                                Winona Ryder
+                            </h3>
+
+                        </div>
+
+                    </article>
+
+
+                    <article class="cast-card">
+
+                        <div class="cast-image">
+
+                            <img
+                                src="./assets/persons/priah-ferguston.jpg"
+                                alt="Priah Ferguson"
+                                loading="lazy"
+                            >
+
+                        </div>
+
+                        <div class="cast-info">
+
+                            <span>Erica Sinclair</span>
+
+                            <h3>
+                                Priah Ferguson
+                            </h3>
+
+                        </div>
+
+                    </article>
+
+
+                    <article class="cast-card">
+
+                        <div class="cast-image">
+
+                            <img
+                                src="./assets/persons/matthew-modine.jpg"
+                                alt="Matthew Modine"
+                                loading="lazy"
+                            >
+
+                        </div>
+
+                        <div class="cast-info">
+
+                            <span>Dr. Martin Brenner</span>
+
+                            <h3>
+                                Matthew Modine
+                            </h3>
+
+                        </div>
+
+                    </article>
+
+
+                    <article class="cast-card">
+
+                        <div class="cast-image">
+
+                            <img
+                                src="./assets/persons/dacre-montgomery.jpg"
+                                alt="Dacre Montgomery"
+                                loading="lazy"
+                            >
+
+                        </div>
+
+                        <div class="cast-info">
+
+                            <span>Billy Hargrove</span>
+
+                            <h3>
+                                Dacre Montgomery
+                            </h3>
+
+                        </div>
+
+                    </article>
+
+
+                    <article class="cast-card">
+
+                        <div class="cast-image">
+
+                            <img
+                                src="./assets/persons/joseph-quinn.jpg"
+                                alt="Joseph Quinn"
+                                loading="lazy"
+                            >
+
+                        </div>
+
+                        <div class="cast-info">
+
+                            <span>Eddie Munson</span>
+
+                            <h3>
+                                Joseph Quinn
+                            </h3>
+
+                        </div>
+
+                    </article>
+
+
+                    <article class="cast-card">
+
+                        <div class="cast-image">
+
+                            <img
+                                src="./assets/persons/jamie-campbell.jpg"
+                                alt="Jamie Campbell Bower"
+                                loading="lazy"
+                            >
+
+                        </div>
+
+                        <div class="cast-info">
+
+                            <span>Vecna</span>
+
+                            <h3>
+                                Jamie Campbell Bower
+                            </h3>
+
+                        </div>
+
+                    </article>
+
+
+                    <article class="cast-card">
+
+                        <div class="cast-image">
+
+                            <img
+                                src="./assets/persons/natalia-dyer.jpg"
+                                alt="Natalia Dyer"
+                                loading="lazy"
+                            >
+
+                        </div>
+
+                        <div class="cast-info">
+
+                            <span>Nancy Wheeler</span>
+
+                            <h3>
+                                Natalia Dyer
+                            </h3>
+
+                        </div>
+
+                    </article>
+
+
+                    <article class="cast-card">
+
+                        <div class="cast-image">
+
+                            <img
+                                src="./assets/persons/charlie-heaton.jpg"
+                                alt="Charlie Heaton"
+                                loading="lazy"
+                            >
+
+                        </div>
+
+                        <div class="cast-info">
+
+                            <span>Jonathan Byers</span>
+
+                            <h3>
+                                Charlie Heaton
+                            </h3>
+
+                        </div>
+
+                    </article>
+
+                </div>
+
+            </div>
+
+        </section>
+
     </main>
-    <footer>
-      <div class="container"></div>
-      <p>
-        Feito com <ion-icon name="heart"></ion-icon> pela
-        <a href="https://ra1nara.github.io/agrupador-de-links/" target="_blank">Rainara</a>
-      </p>
+
+
+    <!-- =====================================================
+         FOOTER
+         ===================================================== -->
+
+    <footer class="footer">
+
+        <div class="container footer-content">
+
+            <p>
+                Feito com
+                <ion-icon name="heart" aria-hidden="true"></ion-icon>
+                pela
+                <a
+                    href="https://ra1nara.github.io/agrupador-de-links/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                >
+                    Rainara
+                </a>
+            </p>
+
+            <span>
+                Projeto desenvolvido para fins educacionais.
+            </span>
+
+        </div>
+
     </footer>
+
+
+    <!-- IONICONS -->
+
     <script
-      type="module"
-      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+        type="module"
+        src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
     ></script>
+
     <script
-      nomodule
-      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+        nomodule
+        src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
     ></script>
-  </body>
+
+</body>
+
 </html>
+
